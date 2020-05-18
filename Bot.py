@@ -11,7 +11,7 @@ TOKEN = "1155082026:AAHBYlC2LFfNP7s_iLIMj6014Qnz-T3K76M"
 CHAT_ID = "@pruebasdanimunoz"
 
 
-timeout = 5.0 # Sixty seconds
+timeout = 10.0 # Sixty seconds
 
 # Definimos algunas funciones para los comandos. Estos generalmente toman los dos argumentos update y context
 def start():
