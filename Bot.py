@@ -11,7 +11,7 @@ TOKEN = "1155082026:AAHBYlC2LFfNP7s_iLIMj6014Qnz-T3K76M"
 CHAT_ID = "@pruebasdanimunoz"
 
 
-timeout = 5.0 # Sixty seconds
+timeout = 120.0 # Sixty seconds
 
 # Definimos algunas funciones para los comandos. Estos generalmente toman los dos argumentos update y context
 def start():
@@ -19,7 +19,7 @@ def start():
     global TOKEN
     global CHAT_ID
     bot = telegram.Bot(token=TOKEN)
-    bot.sendMessage(chat_id = CHAT_ID, text ="HOLAAAA")
+    bot.send_photo(chat_id = CHAT_ID,photo="https://i.ytimg.com/vi/mrRRZVmnrXY/maxresdefault.jpg", caption ="Hola soy la topacio, ¿quieres coño?")
 
 def do_something():
     print("Doing stuff...")
